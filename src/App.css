@@ -1,0 +1,40 @@
+     {/* <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-4 gap-3 md:gap-0">
+          <h1 className="text-2xl font-bold">User Dashboard</h1>
+
+          <div className="flex flex-col sm:flex-row items-start sm:items-center gap-2 sm:gap-3">
+            <select
+              value={sortBy}
+              onChange={(e) => setSortBy(e.target.value)}
+              className="border rounded-md px-2 py-1"
+            >
+              <option value="">Sort By</option>
+              <option value="name">First Name</option>
+              <option value="department">Department</option>
+            </select>
+
+            <div className="flex items-center gap-1">
+              <label htmlFor="items-per-page">Show:</label>
+              <select
+                id="items-per-page"
+                value={itemsPerPage}
+                onChange={(e) => {
+                  setItemsPerPage(Number(e.target.value));
+                  setCurrentPage(1); // Reset to first page
+                }}
+                className="border rounded-md px-2 py-1"
+              >
+                <option value={10}>10</option>
+                <option value={25}>25</option>
+                <option value={50}>50</option>
+                <option value={100}>100</option>
+              </select>
+            </div>
+
+            <button
+              onClick={() => setIsOpenAddEmployee(true)}
+              className="py-1 px-6 border border-blue-600 bg-blue-600 rounded-md cursor-pointer text-white"
+            >
+              + Add User
+            </button>
+          </div>
+        </div> */}
